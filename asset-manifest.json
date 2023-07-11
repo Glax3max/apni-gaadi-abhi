@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/apni-gaadi-abhi/static/css/main.fbf795bf.css",
+    "main.js": "/apni-gaadi-abhi/static/js/main.34b6522a.js",
+    "static/js/787.d6f0e6ab.chunk.js": "/apni-gaadi-abhi/static/js/787.d6f0e6ab.chunk.js",
+    "static/media/bookride2.jpg": "/apni-gaadi-abhi/static/media/bookride2.df1fcc437842d4373a2a.jpg",
+    "index.html": "/apni-gaadi-abhi/index.html",
+    "main.fbf795bf.css.map": "/apni-gaadi-abhi/static/css/main.fbf795bf.css.map",
+    "main.34b6522a.js.map": "/apni-gaadi-abhi/static/js/main.34b6522a.js.map",
+    "787.d6f0e6ab.chunk.js.map": "/apni-gaadi-abhi/static/js/787.d6f0e6ab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fbf795bf.css",
+    "static/js/main.34b6522a.js"
+  ]
+}
