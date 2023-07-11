@@ -1,0 +1,88 @@
+.navbar {
+    position:fixed;
+    z-index:1;
+    top:0;
+    width:100vw;
+}
+/* Brand (Apni Gaadi) */
+.navbar-brand {
+    width:150px;
+    height:45px;
+    font-size:26px;
+    font-family: 'Belanosima', sans-serif;
+}
+/* NaveButton */
+
+.nav1 {
+    margin:0 5px 0 0;
+
+}
+
+#BookRide {
+    width:100px;
+} 
+#BookRide a {
+    color:#fff;
+    padding:9px 12px;
+    font-size: 12px;
+    border-color:rgba(0, 255, 255, 0.702);
+}
+#BookRide a:hover {
+    background-color:rgba(0, 255, 255, 0.702);
+}
+.nav1 li {
+    width:100px;
+    display: flex;
+}
+.nav1 li a{
+    color:#fff;
+    font-size:12px;
+    font-family: 'Belanosima', sans-serif;
+}
+.nav1 li a:hover{
+    color:rgba(0, 255, 255, 0.831);
+}
+
+/* Dorpdown */
+.dropdown {
+    right:10px;
+    display:none;
+ }
+ .dropdown-menu {
+    background-color:transparent;
+
+ }
+.dropdown-item {
+    position:relative;
+    right:50px;
+    text-align: center;
+    width:100px;
+    color:#fff;
+    margin-top:-5px;
+    padding:10px 0 ;
+    font-size:13px;
+    vertical-align: middle;
+    font-family: 'Belanosima', sans-serif;
+    background-color: #000;
+}
+
+
+ @media screen and (max-width:800px) {
+    .dropdown {
+        display:block;
+    }
+    .nav1 {
+        display: none;
+    }
+    .navbar{
+        background-color: transparent !important;
+    }
+ }
+ @media screen and (max-width:600px) {
+    .dropdown-item {
+        right:30px;
+    }
+    .dropdown {
+        right:4px;
+    }
+ }

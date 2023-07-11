@@ -1,0 +1,19 @@
+
+.cab-img2 {
+  position: static;
+  top:40px;
+  width:100%;
+}
+.cab-img1 {
+  display:none;
+}
+
+@media screen and (max-width:800px) {
+  .cab-img2 {
+      display:none;
+  }
+  .cab-img1 {
+      width:100%;
+      display:block;
+  }
+}

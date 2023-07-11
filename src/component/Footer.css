@@ -1,0 +1,77 @@
+.footer {
+    margin-top:50px;
+    background-color: #000;
+    height:500px;
+    color:#fff;
+    font-family: 'Roboto', sans-serif;
+    padding:20px 15px;
+}
+.div1 {
+    padding:20px 15px;
+    font-family: 'Belanosima', sans-serif;
+}
+.div2 {
+    margin:12px 0;
+    display: flex;  
+    
+}
+.company {
+    padding:0 15px;
+}
+.company h2 {
+    font-size:24px;
+}
+.div2 ul {
+    list-style: none;
+}
+
+.company ul li {
+    cursor:pointer;
+    padding:6px 0;
+    font-size:14px;
+}
+
+
+
+.company ul li:hover {
+    color:rgba(0, 255, 255, 0.702);
+}
+.product {
+    margin:0 50px;
+}
+
+.product ul li {
+    cursor:pointer;
+    font-size:14px;
+    padding:6px 0;
+}
+.product h2 {
+    font-size:24px;
+}
+.product ul li:hover {
+    color:rgba(0, 255, 255, 0.702);
+}
+.div3 {
+    display: flex;
+}
+.fb {
+    border:1px solid  rgba(0, 255, 255, 0.702);
+    background:#fff; 
+    margin:0 30px ;
+    cursor:pointer;
+    border-radius:13px;
+}
+.fb img {
+    height:30px;
+    width:30px;
+}
+@media screen and (max-width:700px) {
+    .fb {
+        margin:0 15px;
+    }
+    .fb img {
+        height:20px;
+        width:20px;
+    }
+    
+}

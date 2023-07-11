@@ -1,0 +1,11 @@
+.ride {
+    margin-top:50px;
+    height:100px;
+    display: flex;
+}
+
+.ride h1 {
+    padding:0 40px;
+    font-weight: bold;
+    font-family: 'Belanosima', sans-serif;
+}
